@@ -33,8 +33,39 @@ nav ul li a{
     font-family: 'Oswald', sans-serif;
 }
 
-span{
+.box-container{
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.box-item{
     display: inline-block;
-    background: red;
-    margin-top: 50px;
+    width: 150px;
+    background: white;
+    text-align: center;
+    box-shadow: 0px 5px 15px -10px black;
+}
+
+.item-image{
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.item-image img{
+    width: 100%;
+}
+
+.box-item span{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.box-item h4{
+    font-size: 14px;
+}
+
+.box-item span{
+    font-size: 12px;
+    color: grey;
 }
