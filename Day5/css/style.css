@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Birthday';
+    src: url('./../fonts/Birthday.ttf');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: red;
+    font-family: 'Birthday';
+}
+
+nav ul{
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: blanchedalmond;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+span{
+    display: inline-block;
+    background: red;
+    margin-top: 50px;
+}
