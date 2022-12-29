@@ -1,0 +1,13 @@
+Block Element
+==============
+- Default width : 100% hunxa
+- Block garxa
+
+Inline - Block Element
+==============
+- Default width : hudaina
+Dont Suport
+ - parding-top
+ - padding-bottom
+ - margin-top
+ - margin-bottom

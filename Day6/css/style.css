@@ -35,6 +35,12 @@ nav ul li a{
     border-radius: 15px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    transition: all linear .3s;
+}
+
+nav ul li a:hover{
+    background: red;
+    border-radius: 0;
 }
 
 .box-container{
@@ -48,7 +54,7 @@ nav ul li a{
     background: white;
     text-align: center;
     box-shadow: 0px 5px 15px -10px black;
-    /* margin: 0 5px; */
+    transition: all linear 0.3s;
 }
 
 .item-image{
@@ -59,6 +65,16 @@ nav ul li a{
 
 .item-image img{
     width: 100%;
+    transition: all linear 0.5s;
+}
+.box-item:hover{
+    box-shadow: 0px 5px 30px 0 black;
+}
+.box-item:hover .item-image img{
+    transform: scale(1.5);
+}
+.box-item:hover h4{
+    color: red;
 }
 
 .box-item span{
@@ -68,6 +84,7 @@ nav ul li a{
 
 .box-item h4{
     font-size: 14px;
+    transition: all linear 0.3s;
 }
 
 .box-item span{
@@ -75,12 +92,45 @@ nav ul li a{
     color: grey;
 }
 
-@media (max-width: 991px){
-    body{
-        background: red;
-    }
+.upper-box{
+    width: 300px;
+    height: 300px;
+    background: green;
+    padding: 50px;
+    text-align: center;
+    transition: all linear 0.3s;
+}
+.upper-box h4{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    transition: all linear 0.3s;
 }
 
-@media (max-width: 767px){
+.upper-box a{
+    border: 1px solid white;
+    padding: 15px 30px;
+    background: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all linear 0.3s;
+}
 
+.upper-box:hover{
+    background: red;
+}
+
+.upper-box:hover h4{
+    font-size: 42px;
+}
+
+.upper-box:hover a{
+    background: blue;
+    color: white;
+}
+
+.upper-box:hover a:hover{
+    background: yellow;
+    color: black;
 }
